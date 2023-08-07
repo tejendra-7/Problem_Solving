@@ -1,0 +1,34 @@
+Logic of the problem : 
+Normaly while searching an array using binary search we will half the array every time until the array becomes a single index value.
+but here as we don't know the size of the array first we will search in 1 and then increase the size (double size) 
+In this way we will search the array by making it into parts , as we increase the size of the array we will not search the part which we searched first 
+In normal binary search the time complexity is O(log N) similary here also it is the same as we are just doing the reverse process O(log N) is the time complexity.
+
+
+let's say there is an integer array as follows :
+
+int[] nums = {2,3,4,5,6,7,8,9,10,12,13,15,16,17,18};
+
+first it will search in the first 2 elements where 0 is start and 1 is the end.
+if (target > nums[end]) then it will increase the size of search and put a start value from end+1 is start and end value is start+4;
+
+So this will go on searcing the array until the element is found
+
+
+int[] nums = {2,3,4,5,6,7,8,9,10,12,13,15,16,17,18};
+
+size of the box formula is = end - (start - 1) ===> end - start + 1
+
+
+This is the code to search the array part where the target element lies and find its start and end index and then it will implement the 
+binary search for that array to search that target element from the start and the end index.
+
+while(target > arr[end]){
+            int newStart = end+1;
+            //double the box value 
+            // new end = previous end + sizeofbox * 2;
+            end = end + (end - start + 1) * 2;
+            start = newStart;   
+        }
+
+        return binarySearch(arr, target, start, end);

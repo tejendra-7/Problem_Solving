@@ -15,6 +15,8 @@ public class IndexInInfiniteSortedArray {
         int end = 1;
 
         // condition for target to lie in the range
+        // Finding a range in the array where the target may lie which is greater than or equal to the target element 
+        // so here we are eleminate all the values less than the target element by incrementing the end index value
         while(target > arr[end]){
             int newStart = end+1;
             //double the box value 

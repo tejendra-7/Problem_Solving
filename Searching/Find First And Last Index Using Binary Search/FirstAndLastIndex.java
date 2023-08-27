@@ -38,8 +38,12 @@ public class FirstAndLastIndex {
                 ans = mid;
                 if (findStartIndex) {
                     end = mid - 1;
+                    // As here we are searching for the starting index so we will go and search towards the left side 
+                    // so we are taking the mid element as the end when ever we find the answer as mid until the while loop breaks
+                    // when the loop breaks we will return ans which is the mid which is the startindex in the array
                 } else {
                     start = mid + 1;
+                    // The same process takes place here also but it will happen in the opposite direction to find the end position index value
                 }
             }
         }

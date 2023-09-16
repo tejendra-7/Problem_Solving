@@ -1,0 +1,8 @@
+Let's take an array [3,4,5,6,7,0,1,2,3]
+
+here we need to search the element in this array firstly we need to find the pivot point which
+is the index position where the array is changing from ascending to descending this occurs only once in the array.
+
+here there is only one posiiton where the array is having that next index value lower than the present index value.
+That present index value is the pivot point.
+

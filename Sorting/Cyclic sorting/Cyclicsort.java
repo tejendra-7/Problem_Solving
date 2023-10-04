@@ -9,7 +9,8 @@ public class Cyclicsort {
     public static void sort(int[] arr){
         int i = 0;
         while(i < arr.length){
-            int correct = arr[i] - 1;
+            int correct = arr[i] - 1; 
+            // this is the condition when the numbers starts from 1 at 0 index
             if(arr[i] != arr[correct]){
                 swap(arr,i,correct);
             }else {

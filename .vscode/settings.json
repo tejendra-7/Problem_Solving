@@ -1,3 +1,11 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.project.sourcePaths": [
+        "Sorting/Selection Sort",
+        "Sorting/Missing Number",
+        "Sorting/Insertion Sorting",
+        "Sorting/Finding Disappeared Numbers in Array",
+        "Sorting/Cyclic sorting",
+        "Sorting/Bubble Sorting",
+        "Patterns/BasicPatterns"
+    ]
 }

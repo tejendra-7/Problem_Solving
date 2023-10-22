@@ -10,6 +10,8 @@ public class SimplePatterns {
         p4(5);
         System.out.println("\nReverse right angle triangle pattern\n");
         p5(5);
+        System.out.println("\nArrow pattern 2 \n");
+        p6(5);
 
     }
 
@@ -69,5 +71,17 @@ public class SimplePatterns {
             System.out.println("");
             
         }
+    }
+
+    static void p6(int n){
+        // arrow pattern in a more easy way
+        for(int row = 0; row<2*n; row++){
+            int totalcols = row > n ? 2*n -row : row;
+            for(int col = 1; col<= totalcols; col++){
+                System.out.print("* ");
+            }
+            System.out.println("");
+        } 
+        
     }
 }

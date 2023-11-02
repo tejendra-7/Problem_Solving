@@ -6,9 +6,11 @@
         "Sorting/Finding Disappeared Numbers in Array",
         "Sorting/Cyclic sorting",
         "Sorting/Bubble Sorting",
+        "Searching/Finding non duplicate element using bitwise op",
         "Recursion/Fibonacci using recursion",
+        "Recursion/Binary Search using Recursion",
         "Patterns/Hard Patterns",
         "Patterns/BasicPatterns",
-        "Recursion/Binary Search using Recursion"
+        "Basics/Magic Number Bitwise"
     ]
 }

@@ -12,7 +12,8 @@
         "Patterns/Hard Patterns",
         "Patterns/BasicPatterns",
         "Basics/Power of Two Number",
+        "Basics/Power Of BW",
         "Basics/Magic Number Bitwise",
-        "Basics/Power Of BW"
+        "Basics/CountBits"
     ]
 }

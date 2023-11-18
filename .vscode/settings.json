@@ -11,10 +11,11 @@
         "Recursion/Binary Search using Recursion",
         "Patterns/Hard Patterns",
         "Patterns/BasicPatterns",
+        "Basics/RangeXor",
         "Basics/Power of Two Number",
         "Basics/Power Of BW",
         "Basics/Magic Number Bitwise",
         "Basics/CountBits",
-        "Basics/RangeXor"
+        "Arrays/Flipping an image"
     ]
 }

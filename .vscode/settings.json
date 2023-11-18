@@ -14,6 +14,7 @@
         "Basics/Power of Two Number",
         "Basics/Power Of BW",
         "Basics/Magic Number Bitwise",
-        "Basics/CountBits"
+        "Basics/CountBits",
+        "Basics/RangeXor"
     ]
 }

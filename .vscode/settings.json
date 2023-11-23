@@ -16,6 +16,7 @@
         "Basics/Power Of BW",
         "Basics/Magic Number Bitwise",
         "Basics/CountBits",
-        "Arrays/Flipping an image"
+        "Arrays/Flipping an image",
+        "Arrays/Matrix Multiplication"
     ]
 }

@@ -7,6 +7,7 @@
         "Sorting/Cyclic sorting",
         "Sorting/Bubble Sorting",
         "Searching/Finding non duplicate element using bitwise op",
+        "Searching/Binary Search Java Program",
         "Recursion/Fibonacci using recursion",
         "Recursion/Binary Search using Recursion",
         "Patterns/Hard Patterns",
@@ -16,8 +17,9 @@
         "Basics/Power Of BW",
         "Basics/Magic Number Bitwise",
         "Basics/CountBits",
+        "Arrays/Sieve of Eratosthenes",
         "Arrays/Matrix Multiplication",
         "Arrays/Flipping an image",
-        "Arrays/Sieve of Eratosthenes"
+        "Basics/Addition of Numbers"
     ]
 }

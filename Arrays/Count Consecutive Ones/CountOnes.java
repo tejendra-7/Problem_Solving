@@ -10,8 +10,25 @@
 //    Output: 2
 public class CountOnes {
     public static void main(String[] args) {
-        int[] nums = [1,1,0,0,1,1,1,0];
-        System.out.println();
+        int[] nums ={1,1,0,0,1,1,1,1,1,0};
+        System.out.println(findMaxConsecutiveOnes(nums));
+    }
+
+    public static int findMaxConsecutiveOnes(int[] arr){
+        int maxOnes = 0;
+        int count = 0;
+// [1,1,0,0,1,1,1,0]
+        for(int i = 0; i<arr.length; i++){
+            if(arr[i] == 1){
+                count++;
+                maxOnes = Math.max(count,maxOnes);
+            }else{
+                count = 0;
+            }
+        }
+
+        return maxOnes;
+        
     }
 }
 

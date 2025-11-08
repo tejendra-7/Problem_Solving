@@ -8,7 +8,11 @@
         "Sorting/Bubble Sorting",
         "Searching/Finding non duplicate element using bitwise op",
         "Searching/Binary Search Java Program",
+        "Recursion/x pow n",
+        "Recursion/Tower Of Hanoi",
+        "Recursion/String Rev",
         "Recursion/Fibonacci using recursion",
+        "Recursion/Factorial Using Recursion",
         "Recursion/Binary Search using Recursion",
         "Patterns/Hard Patterns",
         "Patterns/BasicPatterns",
@@ -17,9 +21,10 @@
         "Basics/Power Of BW",
         "Basics/Magic Number Bitwise",
         "Basics/CountBits",
+        "Basics/Addition of Numbers",
         "Arrays/Sieve of Eratosthenes",
         "Arrays/Matrix Multiplication",
         "Arrays/Flipping an image",
-        "Basics/Addition of Numbers"
+        "Recursion/FIrst and Last Occurance"
     ]
 }

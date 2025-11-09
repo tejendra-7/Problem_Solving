@@ -13,6 +13,7 @@
         "Recursion/String Rev",
         "Recursion/Fibonacci using recursion",
         "Recursion/Factorial Using Recursion",
+        "Recursion/FIrst and Last Occurance",
         "Recursion/Binary Search using Recursion",
         "Patterns/Hard Patterns",
         "Patterns/BasicPatterns",
@@ -25,6 +26,6 @@
         "Arrays/Sieve of Eratosthenes",
         "Arrays/Matrix Multiplication",
         "Arrays/Flipping an image",
-        "Recursion/FIrst and Last Occurance"
+        "Recursion/Subsequence"
     ]
 }
